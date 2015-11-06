@@ -1,0 +1,105 @@
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\sale.png
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\ua.png
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\uaMap.png
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\sql\priceComparer.txt
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\products\HTC_one.jpg
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\products\iphone.png
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\products\iPhone_6.jpg
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\products\NokiaLum.jpg
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\products\SonyXp_Z3.jpg
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\images\products\SumsungGal_S5.jpg
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\priceComparer.exe.config
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\priceComparer.exe
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\priceComparer.pdb
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\EPPlus.dll
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\ExcelLibrary.dll
+C:\Price\priceComparerFinal\priceComparer\priceComparer\bin\Debug\EPPlus.xml
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\priceComparer.csprojResolveAssemblyReference.cache
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\MainWindow.baml
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\MainWindow.g.cs
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\App.g.cs
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\priceComparer_Content.g.cs
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\priceComparer_MarkupCompile.cache
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\priceComparer.g.resources
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\priceComparer.Properties.Resources.resources
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\priceComparer.csproj.GenerateResource.Cache
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\priceComparer.exe
+C:\Price\priceComparerFinal\priceComparer\priceComparer\obj\Debug\priceComparer.pdb
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\sale.png
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\ua.png
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\uaMap.png
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\HTC_one.jpg
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\iphone.png
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\iPhone_6.jpg
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\NokiaLum.jpg
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\SonyXp_Z3.jpg
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\SumsungGal_S5.jpg
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\priceComparer.exe.config
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\priceComparer.exe
+E:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\priceComparer.pdb
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.csprojResolveAssemblyReference.cache
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\MainWindow.baml
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\styles\Styles.baml
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\App.baml
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\MainWindow.g.cs
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\styles\Styles.g.cs
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\App.g.cs
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer_Content.g.cs
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer_MarkupCompile.cache
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.g.resources
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.Properties.Resources.resources
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.csproj.GenerateResource.Cache
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.exe
+E:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.pdb
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\sale.png
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\ua.png
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\uaMap.png
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\HTC_one.jpg
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\iphone.png
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\iPhone_6.jpg
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\NokiaLum.jpg
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\SonyXp_Z3.jpg
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\images\products\SumsungGal_S5.jpg
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\priceComparer.exe.config
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\priceComparer.exe
+D:\priceComparer_Final22\priceComparer\priceComparer\bin\Debug\priceComparer.pdb
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.csprojResolveAssemblyReference.cache
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\MainWindow.baml
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\styles\Styles.baml
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\App.baml
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\MainWindow.g.cs
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\styles\Styles.g.cs
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\App.g.cs
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer_Content.g.cs
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer_MarkupCompile.cache
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.g.resources
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.Properties.Resources.resources
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.csproj.GenerateResource.Cache
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.exe
+D:\priceComparer_Final22\priceComparer\priceComparer\obj\Debug\priceComparer.pdb
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\priceComparer.exe.config
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\priceComparer.exe
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\priceComparer.pdb
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\sale.png
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\ua.png
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\uaMap.png
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\products\HTC_one.jpg
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\products\iphone.png
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\products\iPhone_6.jpg
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\products\NokiaLum.jpg
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\products\SonyXp_Z3.jpg
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\images\products\SumsungGal_S5.jpg
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\priceComparer.exe
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\bin\Debug\priceComparer.pdb
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\priceComparer.csprojResolveAssemblyReference.cache
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\MainWindow.baml
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\styles\Styles.baml
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\App.baml
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\MainWindow.g.cs
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\styles\Styles.g.cs
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\App.g.cs
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\priceComparer_Content.g.cs
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\priceComparer_MarkupCompile.cache
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\priceComparer.g.resources
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\priceComparer.Properties.Resources.resources
+D:\priceComparer_Final22_last work_with_setup\priceComparer\priceComparer\obj\Debug\priceComparer.csproj.GenerateResource.Cache

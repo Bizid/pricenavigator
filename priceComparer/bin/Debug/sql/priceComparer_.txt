@@ -1,0 +1,228 @@
+﻿USE master
+GO
+CREATE DATABASE PriceComparer
+ON 
+( NAME = PriceComparer_dat,
+   FILENAME = 'c:\priceDb\PriceComparer.mdf',
+   SIZE = 10,
+   MAXSIZE = 50,
+   FILEGROWTH = 5 )
+LOG ON
+( NAME = 'PriceComparer_log',
+   FILENAME = 'c:\priceDb\PriceComparer.ldf',
+   SIZE = 5MB,
+   MAXSIZE = 25MB,
+   FILEGROWTH = 5MB )
+ COLLATE Cyrillic_General_CI_AS 
+GO
+
+USE [PriceComparer]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[favorite](
+	[id] [nvarchar](max) NULL,
+	[productName] [nvarchar](max) NULL,
+	[productPrice] [nvarchar](max) NULL,
+	[storeName] [nvarchar](max) NULL,
+	[storeCity] [nvarchar](max) NULL
+) ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[applicationtheme](
+	[Id] [int] NOT NULL,
+	[selectedtheme] [varchar](255) NULL,
+UNIQUE NONCLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+INSERT [applicationtheme] ([id], [selectedtheme]) VALUES (1, N'blueTheme');
+GO
+SET ANSI_PADDING OFF
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[yadro](
+	[Name] [nvarchar](max) NULL,
+	[Price] [float] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[serverkh](
+	[Name] [nvarchar](255) NULL,
+	[Price] [float] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[pricektc](
+	[Name] [nvarchar](255) NULL,
+	[Price] [nvarchar](255) NULL
+) ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[store](
+	[id] [int] NULL,
+	[storename] [nvarchar](max) NULL,
+	[storeadress] [nvarchar](max) NULL,
+	[storeurl] [nvarchar](max) NULL,
+	[storetable] [nvarchar](max) NULL,
+	[storecity] [nvarchar](max) NULL
+) ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[productDetail](
+	[id] [int] NULL,
+	[ProductName] [nvarchar](300) NULL,
+	[ProductImage] [nvarchar](300) NULL,
+	[ProductDescription] [nvarchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+INSERT [dbo].[productDetail] ([id], [ProductName], [ProductImage], [ProductDescription]) VALUES (1, N'iphone 4s', N'images\products\iphone.png', N'iPhone — серия смартфонов, разработанных корпорацией Apple. Работают под управлением операционной системы iOS, представляющей собой упрощённую и оптимизированную для функционирования на мобильном устройстве версию Mac OS X.
+Впервые iPhone был анонсирован Стивом Джобсом на конференции MacWorld Expo 9 января 2007 года, а в 2008 году iPhone занял второе место в рейтинге наиболее полезных современных технологий по версии издания PC World.')
+INSERT [dbo].[productDetail] ([id], [ProductName], [ProductImage], [ProductDescription]) VALUES (2, N'Samsung Galaxy S5', N'images\products\SumsungGal_S5.jpg', N'Samsung Group — промышленный концерн (группа компаний), один из крупнейших в Южной Корее, основанный в Корее в 1938 году. На мировом рынке известен как производитель высокотехнологичных компонентов, телекоммуникационного оборудования, бытовой техники, аудио- и видео устройств.')
+INSERT [dbo].[productDetail] ([id], [ProductName], [ProductImage], [ProductDescription]) VALUES (3, N'HTC ONE (M8)', N'images\products\HTC_one.jpg', N'HTC Corporation — тайваньский производитель смартфонов и планшетов, основана в 1997. Компания изначально выпускала смартфоны в основном на базе мобильной операционной системы Windows Mobile от Microsoft, но в 2009 году начала выпускать большинство устройств на платформе Android, а с 2010 года и на платформе Windows Phone.')
+INSERT [dbo].[productDetail] ([id], [ProductName], [ProductImage], [ProductDescription]) VALUES (4, N'Nokia Lumia 630', N'images\products\NokiaLum.jpg', N'Nokia connected people. Nokia (настоящее название Nokia Oyj) — финская компания, одна из мировых лидеров в области мобильных коммуникационных технологий, одна из ведущий поставщиков оборудования для сотовых, фиксированных, широкополосных и IP-сетей. Отлично известна всем своими сотовыми телефонами и смартфонами, в 4 квартале 2007 года занимала лидирующее место в мире по поставкам мобильных телефонов. Штаб-квартира компании находится в Эспоо, городе-спутнике Хельсинки.')
+INSERT [dbo].[productDetail] ([id], [ProductName], [ProductImage], [ProductDescription]) VALUES (5, N'iphone 6', N'images\products\iPhone_6.jpg', N'iPhone — серия смартфонов, разработанных корпорацией Apple. Работают под управлением операционной системы iOS, представляющей собой упрощённую и оптимизированную для функционирования на мобильном устройстве версию Mac OS X.
+Впервые iPhone был анонсирован Стивом Джобсом на конференции MacWorld Expo 9 января 2007 года, а в 2008 году iPhone занял второе место в рейтинге наиболее полезных современных технологий по версии издания PC World.')
+INSERT [dbo].[productDetail] ([id], [ProductName], [ProductImage], [ProductDescription]) VALUES (6, N'Sony', N'images\products\SonyXp_Z3.jpg', N'Sony Corporation — транснациональная корпорация с штаб-квартирой в Токио (Япония), возникшая 7 мая 1946 года.
+Sony Corporation занимается выпуском домашней и профессиональной электроники[1], игровых консолей и другой высокотехнологичной продукции.')
+INSERT [dbo].[store] ([id], [storename], [storeadress], [storeurl], [storetable], [storecity]) VALUES (1, N'Serverkh', N'Пушкинская 10', N'http://server.kh.ua/', N'[dbo].[serverkh]', N'Харьков')
+INSERT [dbo].[store] ([id], [storename], [storeadress], [storeurl], [storetable], [storecity]) VALUES (2, N'Technokit', N'Горловка', N'http://technokit.com.ua', N'[dbo].[technokit]', N'Львов')
+INSERT [dbo].[store] ([id], [storename], [storeadress], [storeurl], [storetable], [storecity]) VALUES (3, N'pricekomtek', N'Независимости, 54', N'http://komtek.net.ua', N'[dbo].[pricekomtek]', N'Киев')
+INSERT [dbo].[store] ([id], [storename], [storeadress], [storeurl], [storetable], [storecity]) VALUES (4, N'pricektc', N'Крыивка, 4', N'http://www.ktc.com.ua', N'[dbo].[pricektc]', N'Львов')
+INSERT [dbo].[store] ([id], [storename], [storeadress], [storeurl], [storetable], [storecity]) VALUES (5, N'Yadro', N'Довженка, 28', N'http://yadro.in.ua', N'[dbo].[yadro]', N'Харьков')
+     
+/****** Object:  StoredProcedure [dbo].[SP_SearchInTables]    Script Date: 10/31/2014 07:55:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_SearchInTables] 
+ @Tablenames VARCHAR(500) 
+,@SearchStr NVARCHAR(60) 
+,@GenerateSQLOnly Bit = 0 
+AS 
+  SET NOCOUNT ON 
+ 
+    DECLARE @MatchFound BIT 
+ 
+    SELECT @MatchFound = 0 
+ 
+    DECLARE @CheckTableNames Table 
+    ( 
+    Tablename sysname 
+    ) 
+ 
+    DECLARE @SQLTbl TABLE 
+    ( 
+     Tablename        SYSNAME 
+    ,WHEREClause    VARCHAR(MAX) 
+    ,SQLStatement   VARCHAR(MAX) 
+    ,Execstatus        BIT  
+    ) 
+ 
+    DECLARE @SQL VARCHAR(MAX) 
+    DECLARE @tmpTblname sysname 
+    DECLARE @ErrMsg VARCHAR(100) 
+ 
+    IF LTRIM(RTRIM(@Tablenames)) IN ('' ,'%') 
+    BEGIN 
+ 
+        INSERT INTO @CheckTableNames 
+        SELECT Name 
+          FROM sys.tables 
+
+    END 
+    ELSE 
+    BEGIN 
+ 
+        SELECT @SQL = 'SELECT ''' + REPLACE(@Tablenames,',',''' UNION SELECT ''') + '''' 
+ 
+        INSERT INTO @CheckTableNames 
+        EXEC(@SQL) 
+
+  PRINT @SQL
+ 
+    END 
+   IF NOT EXISTS(SELECT 1 FROM @CheckTableNames) 
+    BEGIN 
+         
+        SELECT @ErrMsg = 'No tables are found in this database ' + DB_NAME() + ' for the specified filter' 
+        PRINT @ErrMsg 
+        RETURN 
+ 
+    END 
+    INSERT INTO @SQLTbl 
+    ( Tablename,WHEREClause) 
+    SELECT QUOTENAME(SCh.name) + '.' + QUOTENAME(ST.NAME), 
+            ( 
+                SELECT '[' + SC.Name + ']' + ' LIKE ''' + @SearchStr + ''' OR ' + CHAR(10) 
+                  FROM SYS.columns SC 
+                  JOIN SYS.types STy 
+                    ON STy.system_type_id = SC.system_type_id 
+                   AND STy.user_type_id =SC.user_type_id 
+                 WHERE STY.name in ('varchar','char','nvarchar','nchar','text') 
+                   AND SC.object_id = ST.object_id 
+                 ORDER BY SC.name 
+                FOR XML PATH('') 
+            ) 
+      FROM  SYS.tables ST 
+      JOIN @CheckTableNames chktbls 
+                ON chktbls.Tablename = ST.name  
+      JOIN SYS.schemas SCh 
+        ON ST.schema_id = SCh.schema_id 
+     WHERE ST.name <> 'SearchTMP' 
+      GROUP BY ST.object_id, QUOTENAME(SCh.name) + '.' +  QUOTENAME(ST.NAME) ;  
+      UPDATE @SQLTbl 
+         SET SQLStatement = 'SELECT *, ''' + Tablename+ ''' as tablename FROM ' + Tablename + ' WHERE ' + substring(WHEREClause,1,len(WHEREClause)-5) 
+ 
+      DELETE FROM @SQLTbl 
+       WHERE WHEREClause IS NULL 
+  delete from @sqltbl 
+  where Tablename not in (select storetable from store)
+
+
+  declare @sql1 varchar(max)
+  
+  select @sql1 = COALESCE(@sql1 + ' 
+  union 
+  ', '')+ SqlStatement from @SQlTbl
+   --print @sql1
+   set @sql1 = 'select * from (' + @sql1 + ') as t JOIN dbo.store storetbls 
+                ON storetbls.storetable = t.tablename'
+ --print @sql1
+ exec(@sql1)
+   
+    IF @@ROWCOUNT = 0  
+    BEGIN 
+        SELECT @ErrMsg = 'No Matches are found in this database ' + DB_NAME() + ' for the specified filter' 
+        PRINT @ErrMsg 
+        RETURN 
+    END 
+     
+    SET NOCOUNT OFF
+GO
